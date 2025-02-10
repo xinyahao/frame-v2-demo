@@ -3,6 +3,8 @@ import App from "./app";
 
 const appUrl = process.env.NEXT_PUBLIC_URL;
 
+console.log("appUrl: ", appUrl);
+
 const frame = {
   version: "next",
   imageUrl: `${appUrl}/opengraph-image`,
